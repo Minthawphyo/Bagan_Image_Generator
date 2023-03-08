@@ -55,6 +55,7 @@ def about_page():
 def gan_model_1_page():
     add_bg_from_local("image/background2.png")
     title = '<p style=" font-size: 30px; text-align:center">Comparsing Between Original and Generated Images</p>'
+    st.markdown(title, unsafe_allow_html=True)
     st.write('')
     st.write('')
     st.write('')
