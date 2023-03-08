@@ -39,7 +39,7 @@ def about_page():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        image = Image.open("C:/Users/DELL/Desktop/Project_GAN/baganImg1.jpg")
+        image = Image.open("images/baganImg1.jpg")
         st.image(image)
 
     with col2:
