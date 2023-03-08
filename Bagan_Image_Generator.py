@@ -39,21 +39,21 @@ def about_page():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        image = Image.open("images/baganImg1.jpg")
+        image = Image.open("image/baganImg1.jpg")
         st.image(image)
 
     with col2:
-        image = Image.open("C:/Users/DELL/Desktop/Project_GAN/baganImg2.jpg")
+        image = Image.open("image/baganImg2.jpg")
         st.image(image)
 
     with col3:
-        image = Image.open("C:/Users/DELL/Desktop/Project_GAN/baganImg3.jpg")
+        image = Image.open("image/baganImg3.jpg")
 
         st.image(image)
 
 
 def gan_model_1_page():
-    add_bg_from_local("C:/Users/DELL/Desktop/Project_GAN/background.png")
+    add_bg_from_local("image/background.png")
     st.title('GAN model for Bagan Images')
     # data set 4 pone normal image ko pya gif nhk generated phit tk hr ko pya
 
@@ -69,12 +69,12 @@ def gan_model_1_page():
         with col12:
 
             image = Image.open(
-                "C:/Users/DELL/Desktop/Project_GAN/original_img1.png")
+                "image/original_img1.png")
             st.image(image)
             st.write('')
             st.write('')
             image1 = Image.open(
-                "C:/Users/DELL/Desktop/Project_GAN/original_img2.png")
+                "image/original_img2.png")
             st.image(image1)
         with col13:
             st.write('')
@@ -93,12 +93,12 @@ def gan_model_1_page():
         with col22:
 
             image = Image.open(
-                "C:/Users/DELL/Desktop/Project_GAN/generated_image1.jpg")
+                "image/generated_image1.jpg")
             st.image(image)
             st.write('')
             st.write('')
             image = Image.open(
-                "C:/Users/DELL/Desktop/Project_GAN/generated_image2.jpg")
+                "image/generated_image2.jpg")
             st.image(image)
         with col23:
             st.write('')
