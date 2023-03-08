@@ -54,7 +54,7 @@ def about_page():
 
 def gan_model_1_page():
     add_bg_from_local("image/background2.png")
-    st.title('Comparsing Between Original and Generated Images')
+    title = '<p style=" font-size: 30px; text-align:center">Comparsing Between Original and Generated Images</p>'
     st.write('')
     st.write('')
     st.write('')
@@ -66,7 +66,7 @@ def gan_model_1_page():
         st.markdown(original_image_title, unsafe_allow_html=True)
         st.write('')
         st.write('')
-        st.write('')
+        
         col11, col12, col13 = st.columns(3)
         with col11:
             st.write('')
@@ -88,7 +88,7 @@ def gan_model_1_page():
         st.markdown(original_image_title1, unsafe_allow_html=True)
         st.write('')
         st.write('')
-        st.write('')
+        
 
         col21, col22, col23 = st.columns(3)
 
