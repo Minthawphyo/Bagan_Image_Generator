@@ -64,21 +64,21 @@ def gan_model_1_page():
         st.write('')
         st.write('')
         st.write('')
-        col11, col12, col13 = st.columns(3)
-        with col11:
-            st.write('')
-        with col12:
+#         col11, col12, col13 = st.columns(3)
+#         with col11:
+#             st.write('')
+#         with col12:
 
-            image = Image.open(
-                "image/original_img1.png")
-            st.image(image)
-            st.write('')
-            st.write('')
-            image1 = Image.open(
-                "image/original_img2.png")
-            st.image(image1)
-        with col13:
-            st.write('')
+        image = Image.open(
+                "image/original_img1_1.jpg")
+        st.image(image)
+        st.write('')
+        st.write('')
+        image1 = Image.open(
+                "image/original_img2_1.jpg")
+        st.image(image1)
+#         with col13:
+#             st.write('')
 
     with col2:
         original_image_title1 = '<p style=" font-size: 20px; text-align:center">Generated Images(128x128)</p>'
@@ -87,23 +87,23 @@ def gan_model_1_page():
         st.write('')
         st.write('')
 
-        col21, col22, col23 = st.columns(3)
+#         col21, col22, col23 = st.columns(3)
 
-        with col21:
-            st.write('')
+#         with col21:
+#             st.write('')
 
-        with col22:
+#         with col22:
 
-            image = Image.open(
-                "image/generated_image1.jpg")
-            st.image(image)
-            st.write('')
-            st.write('')
-            image = Image.open(
-                "image/generated_image2.jpg")
-            st.image(image)
-        with col23:
-            st.write('')
+        image = Image.open(
+                "image/generated_image1_1.jpg")
+        st.image(image)
+        st.write('')
+        st.write('')
+        image = Image.open(
+                "image/generated_image2_1.jpg")
+        st.image(image)
+#         with col23:
+#             st.write('')
 
 
 def app():
