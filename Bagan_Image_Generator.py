@@ -24,7 +24,7 @@ def add_bg_from_local(image_file):
 
 
 def about_page():
-    add_bg_from_local("C:/Users/DELL/Desktop/Project_GAN/background.png")
+    add_bg_from_local("image/background.png")
 
     original_title = '<b><p style="font-family:Optima;  font-size: 40px;text-align:center">Bagan Image Generator(BIG)</p></b>'
     st.markdown(original_title, unsafe_allow_html=True)
