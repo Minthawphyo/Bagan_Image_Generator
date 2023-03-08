@@ -24,7 +24,7 @@ def add_bg_from_local(image_file):
 
 
 def about_page():
-    add_bg_from_local("image/background.png")
+    add_bg_from_local("image/background1.png")
 
     original_title = '<b><p style="font-family:Optima;  font-size: 40px;text-align:center">Bagan Image Generator(BIG)</p></b>'
     st.markdown(original_title, unsafe_allow_html=True)
@@ -53,7 +53,7 @@ def about_page():
 
 
 def gan_model_1_page():
-    add_bg_from_local("image/background.png")
+    add_bg_from_local("image/background1.png")
     st.title('GAN model for Bagan Images')
     # data set 4 pone normal image ko pya gif nhk generated phit tk hr ko pya
 
