@@ -54,7 +54,7 @@ def about_page():
 
 def gan_model_1_page():
     add_bg_from_local("image/background2.png")
-    st.title('GAN model for Bagan Images')
+    st.title('Comparsing Between Original Images and Generated Images')
     # data set 4 pone normal image ko pya gif nhk generated phit tk hr ko pya
 
     col1, col2 = st.columns(2)
@@ -63,7 +63,7 @@ def gan_model_1_page():
         st.markdown(original_image_title, unsafe_allow_html=True)
         st.write('')
         st.write('')
-        col11, col12, col13 = st.columns(3)
+        col11, col12, col13 = st.columns([0.25,5,0.25])
         with col11:
             st.write('')
         with col12:
@@ -85,7 +85,7 @@ def gan_model_1_page():
         st.write('')
         st.write('')
 
-        col21, col22, col23 = st.columns(3)
+        col21, col22, col23 = st.columns([0.25,5,0.25])
 
         with col21:
             st.write('')
