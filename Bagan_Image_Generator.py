@@ -63,6 +63,7 @@ def gan_model_1_page():
         st.markdown(original_image_title, unsafe_allow_html=True)
         st.write('')
         st.write('')
+        st.write('')
         col11, col12, col13 = st.columns(3)
         with col11:
             st.write('')
@@ -82,6 +83,7 @@ def gan_model_1_page():
     with col2:
         original_image_title1 = '<p style=" font-size: 20px; text-align:center">Generated Images(128x128)</p>'
         st.markdown(original_image_title1, unsafe_allow_html=True)
+        st.write('')
         st.write('')
         st.write('')
 
