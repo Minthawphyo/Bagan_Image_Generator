@@ -63,7 +63,7 @@ def gan_model_1_page():
         st.markdown(original_image_title, unsafe_allow_html=True)
         st.write('')
         st.write('')
-        col11, col12, col13 = st.columns([0.25,5,0.25])
+        col11, col12, col13 = st.columns(3)
         with col11:
             st.write('')
         with col12:
@@ -85,7 +85,7 @@ def gan_model_1_page():
         st.write('')
         st.write('')
 
-        col21, col22, col23 = st.columns([0.25,5,0.25])
+        col21, col22, col23 = st.columns(3)
 
         with col21:
             st.write('')
