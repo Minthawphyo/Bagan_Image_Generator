@@ -73,12 +73,12 @@ def gan_model_1_page():
 #         with col12:
 
         image = Image.open(
-                "image/original_img1_1.jpg")
+                "image/original_img1.jpg")
         st.image(image)
         st.write('')
         st.write('')
         image1 = Image.open(
-                "image/original_img2_1.jpg")
+                "image/original_img2.jpg")
         st.image(image1)
 #         with col13:
 #             st.write('')
@@ -98,12 +98,12 @@ def gan_model_1_page():
 #         with col22:
 
         image = Image.open(
-                "image/generated_image1_1.png")
+                "image/generated_image1.png")
         st.image(image)
         st.write('')
         st.write('')
         image = Image.open(
-                "image/generated_image2_1.jpg")
+                "image/generated_image2.jpg")
         st.image(image)
 #         with col23:
 #             st.write('')
