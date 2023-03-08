@@ -54,7 +54,7 @@ def about_page():
 
 def gan_model_1_page():
     add_bg_from_local("image/background2.png")
-    st.title('Comparsing Between Original Images and Generated Images')
+    st.title('Comparsing Between Original and Generated Images')
     # data set 4 pone normal image ko pya gif nhk generated phit tk hr ko pya
 
     col1, col2 = st.columns(2)
